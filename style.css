@@ -22,17 +22,17 @@ body {
 }
 
 .card {
-  width: 800px;
+  width: 850px;
 }
 
 .container .content-main .card .image img {
-  max-width: 350px;
+  max-width: 400px;
 }
 
 .container .content-main .card .content {
   grid-area: content;
-  width: 350px;
-  padding: 30px 40px 20px;
+  width: 400px;
+  padding: 10px 20px 20px;
   color: hsl(217, 19%, 35%);
 }
 
@@ -114,14 +114,17 @@ body {
   }
 
   .container .content-main .card .image img {
-    max-width: 430px;
+    max-width: 400px;
   }
-  .container .content-main .content {
+  .container .content-main .content h2,
+  p {
     grid-area: content;
+    padding-left: 20px;
   }
 
   .container .content-main .info {
     grid-area: info;
+    padding-left: 20px;
   }
 
   .container .content-main .card .info .share-icon .card-icon {
